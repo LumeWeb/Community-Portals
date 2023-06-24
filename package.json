@@ -1,6 +1,8 @@
 {
     "name": "@lumeweb/community-portals",
     "version": "0.1.0-develop.1",
+    "type": "module",
+    "main": "lib/index.js",
     "repository": {
         "type": "git",
         "url": "gitea@git.lumeweb.com:LumeWeb/community-portals.git"
