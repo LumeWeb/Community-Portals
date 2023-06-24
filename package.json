@@ -1,6 +1,6 @@
 {
     "name": "@lumeweb/community-portals",
-    "version": "0.1.0",
+    "version": "0.1.0-develop.1",
     "repository": {
         "type": "git",
         "url": "gitea@git.lumeweb.com:LumeWeb/community-portals.git"
@@ -13,7 +13,6 @@
         "semantic-release": "^21.0.5"
     },
     "readme": "ERROR: No README data found!",
-    "_id": "@lumeweb/community-portals@0.1.0",
     "scripts": {
         "prepare": "presetter bootstrap",
         "build": "run build",
