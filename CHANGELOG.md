@@ -1,3 +1,10 @@
+# [0.1.0-develop.2](https://git.lumeweb.com/LumeWeb/community-portals/compare/v0.1.0-develop.1...v0.1.0-develop.2) (2023-06-24)
+
+
+### Bug Fixes
+
+* add missing type and main ([54baee6](https://git.lumeweb.com/LumeWeb/community-portals/commit/54baee6e489df238f37017069f7c7bd3d52f56da))
+
 # [0.1.0-develop.1](https://git.lumeweb.com/LumeWeb/community-portals/compare/v0.0.1...v0.1.0-develop.1) (2023-06-24)
 
 
