@@ -1860,7 +1860,7 @@
         },
         "node_modules/@lumeweb/node-library-preset": {
             "version": "0.1.0",
-            "resolved": "git+https://git.lumeweb.com/LumeWeb/node-library-preset.git#e01dfae85b51b9fb06b2b94d56345e349f6e9ca9",
+            "resolved": "git+https://git.lumeweb.com/LumeWeb/node-library-preset.git#69bc906bf6f6e6de2e057d56ae839247210247ac",
             "dev": true,
             "dependencies": {
                 "presetter-preset-hybrid": "^4.0.1",
