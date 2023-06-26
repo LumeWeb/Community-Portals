@@ -1,12 +1,12 @@
 {
     "name": "@lumeweb/community-portals",
-    "version": "0.1.0-develop.3",
+    "version": "0.1.0-develop.4",
     "lockfileVersion": 3,
     "requires": true,
     "packages": {
         "": {
             "name": "@lumeweb/community-portals",
-            "version": "0.1.0-develop.3",
+            "version": "0.1.0-develop.4",
             "devDependencies": {
                 "@lumeweb/libweb": "^0.2.0-develop.17",
                 "@lumeweb/node-library-preset": "git+https://git.lumeweb.com/LumeWeb/node-library-preset.git",
