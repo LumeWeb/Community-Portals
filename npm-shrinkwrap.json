@@ -17,7 +17,7 @@
                 "semantic-release": "^21.0.5"
             },
             "peerDependencies": {
-                "@lumeweb/libweb": "^0.2.0"
+                "@lumeweb/libweb": "^0.2.0-develop.17"
             }
         },
         "node_modules/@ampproject/remapping": {
