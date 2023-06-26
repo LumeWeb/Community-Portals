@@ -8,6 +8,8 @@
         "url": "gitea@git.lumeweb.com:LumeWeb/community-portals.git"
     },
     "devDependencies": {
+        "@lumeweb/libweb": "^0.2.0",
+        "@lumeweb/node-library-preset": "git+https://git.lumeweb.com/LumeWeb/node-library-preset.git",
         "@semantic-release/changelog": "^6.0.3",
         "@semantic-release/git": "^10.0.1",
         "presetter": "^4.0.1",

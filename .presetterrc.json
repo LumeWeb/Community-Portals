@@ -1,13 +1,5 @@
 {
-    "preset": [
-        "presetter-preset-strict"
-    ],
-    "config": {
-        "prettier": {
-            "singleQuote": false
-        }
-    },
-    "variable": {
-        "source": "src"
-    }
+  "preset": [
+    "@lumeweb/node-library-preset"
+  ]
 }
