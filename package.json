@@ -23,7 +23,7 @@
         "semantic-release": "semantic-release"
     },
     "peerDependencies": {
-        "@lumeweb/libweb": "^0.2.0-develop.17"
+        "@lumeweb/libweb": "^0.2.0-develop.19"
     },
     "publishConfig": {
         "access": "public"

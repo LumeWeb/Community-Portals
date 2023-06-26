@@ -17,7 +17,7 @@
                 "semantic-release": "^21.0.5"
             },
             "peerDependencies": {
-                "@lumeweb/libweb": "^0.2.0-develop.17"
+                "@lumeweb/libweb": "^0.2.0-develop.19"
             }
         },
         "node_modules/@ampproject/remapping": {
@@ -1789,12 +1789,11 @@
             "peer": true
         },
         "node_modules/@lumeweb/libportal": {
-            "version": "0.2.0-develop.11",
-            "resolved": "https://registry.npmjs.org/@lumeweb/libportal/-/libportal-0.2.0-develop.11.tgz",
-            "integrity": "sha512-+/45DTu03KMbCkwv4vtKv6snD+r9EZPx4+RuInXyu39QZ6D7pcDosUqzCc5eY5AxzjztIMdVtV9w7qtvK5Oovw==",
+            "version": "0.1.2",
+            "resolved": "https://registry.npmjs.org/@lumeweb/libportal/-/libportal-0.1.2.tgz",
+            "integrity": "sha512-3lA9yU1VArg4vJrewHD3X+2PKm9h+A8PwKDTRI5ob+xuAKJcDITGa1+JfEiqy4OVu39xGdShPKGk4uDWbxrTNA==",
             "dev": true,
             "dependencies": {
-                "@lumeweb/node-library-preset": "git+https://git.lumeweb.com/LumeWeb/node-library-preset.git",
                 "@noble/curves": "^1.1.0",
                 "@noble/hashes": "^1.3.1",
                 "detect-node": "^2.1.0",
@@ -1807,64 +1806,27 @@
             }
         },
         "node_modules/@lumeweb/libweb": {
-            "version": "0.2.0-develop.17",
-            "resolved": "https://registry.npmjs.org/@lumeweb/libweb/-/libweb-0.2.0-develop.17.tgz",
-            "integrity": "sha512-AJBWizLIybg+JwNynwDiWYsC5gAs9WQSXrwrjT/M/YnYbAnbn4GexDzW+3voEW+UoGqWvaXehT7rCqRrupXTmg==",
-            "dev": true,
-            "dependencies": {
-                "@lumeweb/community-portals": "^0.1.0-develop.2",
-                "@lumeweb/libportal": "^0.2.0-develop.10",
-                "@lumeweb/node-library-preset": "git+https://git.lumeweb.com/LumeWeb/node-library-preset.git",
-                "@noble/curves": "^1.1.0",
-                "@noble/hashes": "^1.3.1"
-            }
-        },
-        "node_modules/@lumeweb/libweb/node_modules/@lumeweb/community-portals": {
-            "version": "0.1.0-develop.2",
-            "resolved": "https://registry.npmjs.org/@lumeweb/community-portals/-/community-portals-0.1.0-develop.2.tgz",
-            "integrity": "sha512-VbbNh0Jidm5ShYBA2AD9bjl9n1Yvs0ExPlx/+bX+xpv/+WpRLV4QfCBF8pzk4+s+pOEN+0s50biJnBITNBC8JA==",
-            "dev": true,
-            "peerDependencies": {
-                "@lumeweb/libweb": "^0.2.0"
-            }
-        },
-        "node_modules/@lumeweb/libweb/node_modules/@lumeweb/libweb": {
             "version": "0.2.0",
             "resolved": "https://registry.npmjs.org/@lumeweb/libweb/-/libweb-0.2.0.tgz",
             "integrity": "sha512-G2G3vu7k18UA67/UiloIWPn8EytOz94CBsY9WYyhuHlt64y9nCqxIx0+Ze6bQ1mdRcgwKP0x7Tvqvq6WPLn3Ow==",
             "dev": true,
-            "peer": true,
             "dependencies": {
                 "@lumeweb/libportal": "^0.1.0",
                 "@noble/curves": "^1.1.0",
                 "@noble/hashes": "^1.3.1"
             }
         },
-        "node_modules/@lumeweb/libweb/node_modules/@lumeweb/libweb/node_modules/@lumeweb/libportal": {
-            "version": "0.1.2",
-            "resolved": "https://registry.npmjs.org/@lumeweb/libportal/-/libportal-0.1.2.tgz",
-            "integrity": "sha512-3lA9yU1VArg4vJrewHD3X+2PKm9h+A8PwKDTRI5ob+xuAKJcDITGa1+JfEiqy4OVu39xGdShPKGk4uDWbxrTNA==",
-            "dev": true,
-            "peer": true,
-            "dependencies": {
-                "@noble/curves": "^1.1.0",
-                "@noble/hashes": "^1.3.1",
-                "detect-node": "^2.1.0",
-                "multiformats": "^11.0.2",
-                "node-fetch": "^3.3.1",
-                "p-defer": "^4.0.0",
-                "stream-to-blob": "^2.0.1",
-                "tus-js-client": "^3.1.0",
-                "web-streams-polyfill": "^3.2.1"
-            }
-        },
         "node_modules/@lumeweb/node-library-preset": {
             "version": "0.1.0",
-            "resolved": "git+https://git.lumeweb.com/LumeWeb/node-library-preset.git#69bc906bf6f6e6de2e057d56ae839247210247ac",
+            "resolved": "git+https://git.lumeweb.com/LumeWeb/node-library-preset.git#05b030c9ca15eb17e72080ad03f71f7203429187",
             "dev": true,
             "dependencies": {
+                "@semantic-release/changelog": "^6.0.3",
+                "@semantic-release/git": "^10.0.1",
+                "@semantic-release/npm": "^10.0.4",
                 "presetter-preset-hybrid": "^4.0.1",
-                "presetter-preset-strict": "^4.0.1"
+                "presetter-preset-strict": "^4.0.1",
+                "semantic-release": "^21.0.5"
             }
         },
         "node_modules/@noble/curves": {
@@ -4519,7 +4481,6 @@
             "resolved": "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz",
             "integrity": "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==",
             "dev": true,
-            "peer": true,
             "dependencies": {
                 "ansi-styles": "^4.1.0",
                 "supports-color": "^7.1.0"
@@ -18089,8 +18050,7 @@
             "version": "0.2.0",
             "resolved": "https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz",
             "integrity": "sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==",
-            "dev": true,
-            "peer": true
+            "dev": true
         },
         "node_modules/through": {
             "version": "2.3.8",
@@ -19274,7 +19234,6 @@
             "resolved": "https://registry.npmjs.org/write-file-atomic/-/write-file-atomic-4.0.2.tgz",
             "integrity": "sha512-7KxauUdBmSdWnmpaGFg+ppNjKF8uNLry8LyzjauQDOVONfFLNKrKvQOxZ/VuTIcS/gge/YNahf5RIIQWTSarlg==",
             "dev": true,
-            "peer": true,
             "dependencies": {
                 "imurmurhash": "^0.1.4",
                 "signal-exit": "^3.0.7"
